@@ -1,4 +1,4 @@
-# Iam Try With Simple apps
+# Iam Try With Simple Apps
 
 by:fatkhur rozaq
 
