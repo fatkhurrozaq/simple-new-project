@@ -1,15 +1,21 @@
 pipeline {
-    agent {
-        node {
-            label "linux"
-        }
+    agent any{
     }
     stages {
-        stage("sample_pipeline") {
+        stage("build") {
             steps {
-                echo("build_pipeline_revision")
+                echo("hello is build")
             }
         }
-
+         stage("test") {
+            steps {
+                echo("hello is test")
+            }
+        }
+         stage("ddeploy") {
+            steps {
+                echo("hello is deploy")
+            }
+        }
     }
 }
